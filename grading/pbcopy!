@@ -1,0 +1,21 @@
+Instructions:
+
+Paste your code i.e. TxHandler.java and MaxFeeTxHandler.java in this directory and run using the following set of commands
+
+1) Testing TxHandler.java: Enter the following commands in your terminal from the current working directory.
+
+$javac -cp scroogeCoinGrader.jar:rsa.jar:algs4.jar:. TestTxHandler.java
+$java -cp scroogeCoinGrader.jar:rsa.jar:algs4.jar:. TestTxHandler
+
+2) Testing MaxFeeTxHandler.java: Enter the following commands in your terminal from the current working directory.
+
+$javac -cp scroogeCoinGrader.jar:rsa.jar:algs4.jar:. TestMaxFeeTxHandler.java
+$java -cp scroogeCoinGrader.jar:rsa.jar:algs4.jar:. TestMaxFeeTxHandler
+
+Note: If you are using IDE like eclipse, just add jar files to your build path and create a folder for all text files within the working directory of your code.
+
+Jar Files:
+
+1) rsa.jar: Contains classes for using RSAKeys
+2) algs4.jar: Contains some useful classes like defining priority queues, stacks, etc.
+3) scroogeCoinGrader.java: Contains classes used for grading the submitted files.
